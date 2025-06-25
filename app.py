@@ -4,7 +4,7 @@ st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":spark
 # Menú en el sidebar
 menu = st.sidebar.radio(
     "Navegación",
-    ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Contacto y Referencias"]
+    ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Memorias", "Contacto y Referencias"]
 )
 # Paleta y estilos generales
 st.markdown("""
@@ -86,6 +86,13 @@ elif menu == "Fortalezas":
 elif menu == "Intereses":
     st.header("🎯 Intereses")
     st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. También encuentra una gran pasión por la producción de contenido audiovisual. Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
+elif menu == "Momentos"
+    st.header("Momentos")
+    st.write("Algunos momentos durante mi trayectoria")
+    col1, col2, col3 = st.columns(3)
+    col1.image(endorsements["img1"], use_column_width=True)
+    col2.image(endorsements["img2"], use_column_width=True)
+    col3.image(endorsements["img3"], use_column_width=True)
 
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
