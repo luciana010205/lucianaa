@@ -47,7 +47,7 @@ st.subheader(info["Intro"])
 st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
 
 # Mostrar secciones según el menú
-elif menu == "Sobre mí":
+if menu == "Sobre mí":
     st.header("Sobre mí")
     st.write(info["About"])
 
