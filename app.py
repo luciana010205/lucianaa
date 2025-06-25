@@ -87,14 +87,6 @@ elif menu == "Intereses":
     st.header("🎯 Intereses")
     st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. También encuentra una gran pasión por la producción de contenido audiovisual. Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
 
-elif menu == "Momentos":
-    st.header("Momentos")
-    st.write("Algunos momentos durante mi trayectoria")
-col1, col2, col3 = st.columns(3)
-col1.image(endorsements["img1"], use_column_width=True)
-col2.image(endorsements["img2"], use_column_width=True)
-col3.image(endorsements["img3"], use_column_width=True)
-
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
     st.markdown('[✉️ Escríbeme un correo](mailto:luciana.huertas.a@gmail.com)', unsafe_allow_html=True)
@@ -106,3 +98,9 @@ elif menu == "Contacto y Referencias":
         <button style='padding: 10px 20px; background-color: #E1306C; color: white; border: none; border-radius: 5px;'>Visita mi Instagram 📸✨</button>
     </a>
     """, unsafe_allow_html=True)
+
+st.header("Testimonios / Momentos")
+col1, col2, col3 = st.columns(3)
+col1.image(endorsements["img1"], use_column_width=True)
+col2.image(endorsements["img2"], use_column_width=True)
+col3.image(endorsements["img3"], use_column_width=True)
