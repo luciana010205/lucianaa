@@ -58,8 +58,6 @@ col3.image(endorsements["img3"], use_column_width=True)
 st.header("Instagram")
 st.markdown("""
 <a href="https://www.instagram.com/luciana.hrts/" target="_blank">
-    <button style='padding: 10px 20px; background-color: #E1306C; color: white; border: none; border-radius: 5px;'>Ver Instagram</button>
+    <button style='padding: 10px 20px; background-color: #E1306C; color: white; border: none; border-radius: 5px;'>Visita mi Instagram 📸✨</button>
 </a>
 """, unsafe_allow_html=True)
-if st.button("Visita mi Instagram 📸✨"):
-    st.markdown("[Haz clic aquí para ver mi Instagram](https://www.instagram.com/luciana.hrts/)", unsafe_allow_html=True)
