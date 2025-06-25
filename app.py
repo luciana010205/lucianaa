@@ -56,6 +56,5 @@ col3.image(endorsements["img3"], use_column_width=True)
 
 # Sección Instagram Embed
 st.header("Instagram")
-st.components.v1.html(embed_rss['rss'], height=600, scrolling=True)
-if st.button("Visita mi Instagram ✨"):
+if st.button("Visita mi Instagram 📸✨"):
     st.markdown("[Haz clic aquí para ver mi Instagram](https://www.instagram.com/luciana.hrts/)", unsafe_allow_html=True)
