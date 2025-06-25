@@ -24,7 +24,10 @@ info = {
 endorsements = {
     "img1": "https://i.imgur.com/wLsNunU.jpeg",
     "img2": "https://i.imgur.com/4wbxvlA.jpeg",
-    "img3": "https://i.imgur.com/3QCImVD.jpeg"
+    "img3": "https://i.imgur.com/3QCImVD.jpeg",
+    "img4": "https://i.imgur.com/A1ylzev.jpeg",
+    "img5": "https://i.imgur.com/RzILaDj.jpeg",
+    "img6": "https://i.imgur.com/izxTzzY.jpeg"
 }
 
 embed_rss = {
@@ -70,8 +73,11 @@ elif menu == "Galería de momentos":
     st.header("Galería de momentos")
     col1, col2, col3 = st.columns(3)
     col1.image(endorsements["img1"])
+    col1.image(endorsements["img4"])
     col2.image(endorsements["img2"])
+    col2.image(endorsements["img5"])
     col3.image(endorsements["img3"])
+    col3.image(endorsements["img6"])
 
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
