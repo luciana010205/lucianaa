@@ -48,7 +48,7 @@ st.header("Sobre mí")
 st.write(info["About"])
 
 # Sección Endorsements
-st.header("Testimonios / Momentos")
+st.header("Momentos")
 col1, col2, col3 = st.columns(3)
 col1.image(endorsements["img1"], use_column_width=True)
 col2.image(endorsements["img2"], use_column_width=True)
