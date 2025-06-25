@@ -4,7 +4,7 @@ st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":spark
 # Menú en el sidebar
 menu = st.sidebar.radio(
     "Navegación",
-    ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Instagram", "Contacto"]
+    ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Contacto y Referencias"]
 )
 
 # ---------------------- INFO PERSONAL ----------------------
