@@ -13,7 +13,7 @@ info = {
     Actualmente me encuentro trabajando como Guía PUCP y en busca del próximo voluntariado que transforme el mundo. ¡En este portafolio podrás descubrir más sobre mí y mis ideas!""",
     "City": "Lima, Perú",
     "Email": "luciana.huertas.a@gmail.com",
-    "Photo": "https://i.imgur.com/wLsNunU.jpeg"
+    "Photo": "https://i.imgur.com/XMGcTff.png"
 }
 
 endorsements = {
