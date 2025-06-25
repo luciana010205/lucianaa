@@ -69,11 +69,9 @@ elif menu == "Instagram":
     st.markdown("📸 [Sígueme en Instagram](https://www.instagram.com/luciana.hrts/)", unsafe_allow_html=True)
     st.components.v1.html(embed_rss['rss'], height=600, scrolling=True)
 
-elif menu == "Contacto":
+elif menu == "Contacto y Referencias":
     st.markdown('[✉️ Escríbeme un correo](mailto:luciana.huertas.a@gmail.com)', unsafe_allow_html=True)
-
-st.header("📌 Referencias")
-st.write("Referencias disponibles a solicitud.")
+    st.write("Referencias disponibles a solicitud.")
 
 # Sección Instagram Embed
 st.header("Instagram")
