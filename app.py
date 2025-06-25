@@ -4,7 +4,7 @@ st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":spark
 # Menú en el sidebar
 menu = st.sidebar.radio(
     "Navegación",
-    ["Inicio", "Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Instagram", "Contacto"]
+    ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Instagram", "Contacto"]
 )
 
 # ---------------------- INFO PERSONAL ----------------------
@@ -41,8 +41,8 @@ embed_rss = {
 
 # ---------------------- INTERFAZ ----------------------
 # Foto e Introducción
-st.image(info["Photo"], width=150)
 st.title(info["Full_Name"])
+st.image(info["Photo"], width=150)
 st.subheader(info["Intro"])
 st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
 
