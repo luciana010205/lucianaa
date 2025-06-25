@@ -67,12 +67,9 @@ elif menu == "Intereses":
 elif menu == "Contacto y Referencias":
     st.header("Contacto y Referencias")
     st.markdown('[✉️ Escríbeme un correo](mailto:luciana.huertas.a@gmail.com)', unsafe_allow_html=True)
-    
-
-# Sección Instagram Embed
-st.header("Instagram")
-st.markdown("""
-<a href="https://www.instagram.com/luciana.hrts/" target="_blank">
-    <button style='padding: 10px 20px; background-color: #E1306C; color: white; border: none; border-radius: 5px;'>Visita mi Instagram 📸✨</button>
-</a>
-""", unsafe_allow_html=True)
+    st.header("Instagram")
+    st.markdown("""
+    <a href="https://www.instagram.com/luciana.hrts/" target="_blank">
+        <button style='padding: 10px 20px; background-color: #E1306C; color: white; border: none; border-radius: 5px;'>Visita mi Instagram 📸✨</button>
+    </a>
+    """, unsafe_allow_html=True)
