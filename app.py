@@ -6,7 +6,30 @@ menu = st.sidebar.radio(
     "Navegación",
     ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Contacto y Referencias"]
 )
-
+# Paleta y estilos generales
+st.markdown("""
+    <style>
+        body {
+            background-color: #fdfcfb;
+        }
+        h1, h2, h3 {
+            font-family: 'Georgia', serif;
+            color: #4B3F72;
+        }
+        p, li {
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            color: #333333;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
+        }
+    </style>
+""", unsafe_allow_html=True)
 # ---------------------- INFO PERSONAL ----------------------
 info = {
     "Pronoun": "ella",
