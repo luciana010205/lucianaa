@@ -54,7 +54,7 @@ if menu == "Sobre mí":
 elif menu == "Portafolio":
     st.header("📂 Portafolio")
     st.write("Explora los intereses y experiencia de Luciana en este portafolio, donde podrás encontrar información completa de su desarrollo como persona y profesional.")
-    st.image(info["CV], width=200)
+    st.image(info["CV"], width=200)
     
 elif menu == "Fortalezas":
     st.header("💪 Fortalezas")
