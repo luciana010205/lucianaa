@@ -1,7 +1,13 @@
 import streamlit as st
-
+st.set_page_config(page_title="Portafolio de Luciana", layout="wide")
 # ---------------------- CONFIGURACIÓN DE PÁGINA ----------------------
 st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":sparkles:", layout="wide")
+
+# Menú en el sidebar
+menu = st.sidebar.radio(
+    "Navegación",
+    ["Inicio", "Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Instagram", "Contacto"]
+)
 
 # ---------------------- INFO PERSONAL ----------------------
 info = {
@@ -47,12 +53,26 @@ st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
 st.header("Sobre mí")
 st.write(info["About"])
 
+st.header("💪 Fortalezas")
+st.write("""Luciana posee gran facilidad de habla y carisma, así como un fuerte sentido de la colaboración y el trabajo en equipo efectivo. Siempre está dispuesta a ayudar y destacar.""")
+
+st.header("🎯 Intereses")
+st.write("""Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. 
+También encuentra una gran pasión por la producción de contenido audiovisual. 
+Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.""")
+
 # Sección Endorsements
 st.header("Momentos")
 col1, col2, col3 = st.columns(3)
 col1.image(endorsements["img1"], use_column_width=True)
 col2.image(endorsements["img2"], use_column_width=True)
 col3.image(endorsements["img3"], use_column_width=True)
+
+st.header("🕒 Disponibilidad")
+st.write("""Luciana se encuentra en búsqueda de nuevas oportunidades profesionales y se encuentra en total disponibilidad para comenzar a trabajar en ellas.""")
+
+st.header("📌 Referencias")
+st.write("Referencias disponibles a solicitud.")
 
 # Sección Instagram Embed
 st.header("Instagram")
