@@ -72,7 +72,7 @@ elif menu == "Instagram":
 elif menu == "Contacto y Referencias":
     st.header("Contacto y Referencias")
     st.markdown('[✉️ Escríbeme un correo](mailto:luciana.huertas.a@gmail.com)', unsafe_allow_html=True)
-    st.write("Referencias disponibles a solicitud.")
+    
 
 # Sección Instagram Embed
 st.header("Instagram")
