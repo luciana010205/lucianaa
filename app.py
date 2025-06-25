@@ -67,11 +67,11 @@ elif menu == "Intereses":
     st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. También encuentra una gran pasión por la producción de contenido audiovisual. Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
 
 elif menu == "Galería de momentos":
-    st.header("Galería de momento")
-        col1, col2, col3 = st.columns(3)
-        col1.image(endorsements["img1"])
-        col2.image(endorsements["img2"])
-        col3.image(endorsements["img3"])
+    st.header("Galería de momentos")
+    col1, col2, col3 = st.columns(3)
+    col1.image(endorsements["img1"])
+    col2.image(endorsements["img2"])
+    col3.image(endorsements["img3"])
 
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
