@@ -62,9 +62,7 @@ elif menu == "Fortalezas":
 
 elif menu == "Intereses":
     st.header("🎯 Intereses")
-    st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. 
-También encuentra una gran pasión por la producción de contenido audiovisual. 
-Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
+    st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. También encuentra una gran pasión por la producción de contenido audiovisual. Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
 
 elif menu == "Instagram":
     st.header("Instagram")
