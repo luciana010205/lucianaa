@@ -47,11 +47,6 @@ st.subheader(info["Intro"])
 st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
 
 # Mostrar secciones según el menú
-if menu == "Inicio":
-    st.image(info["Photo"], width=150)
-    st.title(info["Full_Name"])
-    st.subheader(info["Intro"])
-    st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
 
 elif menu == "Sobre mí":
     st.header("Sobre mí")
