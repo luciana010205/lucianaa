@@ -90,10 +90,10 @@ elif menu == "Intereses":
 elif menu == "Momentos":
     st.header("Momentos")
     st.write("Algunos momentos durante mi trayectoria")
-    col1, col2, col3 = st.columns(3)
-    col1.image(endorsements["img1"], use_column_width=True)
-    col2.image(endorsements["img2"], use_column_width=True)
-    col3.image(endorsements["img3"], use_column_width=True)
+col1, col2, col3 = st.columns(3)
+col1.image(endorsements["img1"], use_column_width=True)
+col2.image(endorsements["img2"], use_column_width=True)
+col3.image(endorsements["img3"], use_column_width=True)
 
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
