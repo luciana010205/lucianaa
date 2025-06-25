@@ -42,7 +42,7 @@ embed_rss = {
 
 # ---------------------- INTERFAZ ----------------------
 # Foto e Introducción
-st.write("Accede a la información completa a través del menú")
+st.write("Accede a la información completa a través del menú en la parte superior a la izquierda")
 st.title(info["Full_Name"])
 st.image(info["Photo"], width=150)
 st.subheader(info["Intro"])
