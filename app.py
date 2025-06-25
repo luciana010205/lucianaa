@@ -5,11 +5,12 @@ st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":spark
 #Color de página
 st.markdown("""
     <style>
-        body {
-            background-color: #F3EAF4;
+        .stApp {
+            background-color: #FAF9F6;
         }
     </style>
 """, unsafe_allow_html=True)
+
 # Menú en el sidebar
 menu = st.sidebar.radio(
     "Navegación",
