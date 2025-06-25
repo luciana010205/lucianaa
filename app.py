@@ -16,7 +16,8 @@ info = {
     Actualmente me encuentro trabajando como Guía PUCP y en busca del próximo voluntariado que transforme el mundo. ¡En este portafolio podrás descubrir más sobre mí y mis ideas!""",
     "City": "Lima, Perú",
     "Email": "luciana.huertas.a@gmail.com",
-    "Photo": "https://i.imgur.com/XMGcTff.png"
+    "Photo": "https://i.imgur.com/XMGcTff.png",
+    "CV": "https://i.imgur.com/LTDspUS.png"
 }
 
 endorsements = {
@@ -53,8 +54,8 @@ if menu == "Sobre mí":
 elif menu == "Portafolio":
     st.header("📂 Portafolio")
     st.write("Explora los intereses y experiencia de Luciana en este portafolio, donde podrás encontrar información completa de su desarrollo como persona y profesional.")
-    # Aquí puedes poner proyectos, links, etc.
-
+    st.image(info["CV], width=200)
+    
 elif menu == "Fortalezas":
     st.header("💪 Fortalezas")
     st.write("Luciana posee gran facilidad de habla y carisma, así como un fuerte sentido de la colaboración y el trabajo en equipo efectivo. Siempre está dispuesta a ayudar y destacar.")
