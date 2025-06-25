@@ -72,28 +72,6 @@ elif menu == "Instagram":
 elif menu == "Contacto":
     st.markdown('[✉️ Escríbeme un correo](mailto:luciana.huertas.a@gmail.com)', unsafe_allow_html=True)
 
-# Sección "Sobre mí"
-st.header("Sobre mí")
-st.write(info["About"])
-
-st.header("💪 Fortalezas")
-st.write("""Luciana posee gran facilidad de habla y carisma, así como un fuerte sentido de la colaboración y el trabajo en equipo efectivo. Siempre está dispuesta a ayudar y destacar.""")
-
-st.header("🎯 Intereses")
-st.write("""Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. 
-También encuentra una gran pasión por la producción de contenido audiovisual. 
-Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.""")
-
-# Sección Endorsements
-st.header("Momentos")
-col1, col2, col3 = st.columns(3)
-col1.image(endorsements["img1"], use_column_width=True)
-col2.image(endorsements["img2"], use_column_width=True)
-col3.image(endorsements["img3"], use_column_width=True)
-
-st.header("🕒 Disponibilidad")
-st.write("""Luciana se encuentra en búsqueda de nuevas oportunidades profesionales y se encuentra en total disponibilidad para comenzar a trabajar en ellas.""")
-
 st.header("📌 Referencias")
 st.write("Referencias disponibles a solicitud.")
 
