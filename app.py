@@ -2,6 +2,10 @@
 import streamlit as st
 # ---------------------- CONFIGURACIÓN DE PÁGINA ----------------------
 st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":sparkles:", layout="wide")
+# Menú en el sidebar
+menu = st.sidebar.radio(
+    "Navegación",
+    ["General", "Portafolio", "Fortalezas", "Intereses", "Galería de momentos", "Contacto y Referencias"]
 
 # ---------------------- INFO PERSONAL ----------------------
 info = {
@@ -48,7 +52,7 @@ st.subheader(info["Intro"])
 st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
 
 # Mostrar secciones según el menú
-if menu == "Sobre mí":
+if menu == "General":
     st.header("Sobre mí")
     st.write(info["About"])
 
