@@ -68,10 +68,10 @@ elif menu == "Intereses":
 
 elif menu == "Galería de momentos"
     st.header("Galería de momento")
-    col1, col2, col3 = st.columns(3)
-    col1.image(endorsements["img1"])
-    col2.image(endorsements["img2"])
-    col3.image(endorsements["img3"])
+        col1, col2, col3 = st.columns(3)
+        col1.image(endorsements["img1"])
+        col2.image(endorsements["img2"])
+        col3.image(endorsements["img3"])
 
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
