@@ -4,32 +4,8 @@ st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":spark
 # Menú en el sidebar
 menu = st.sidebar.radio(
     "Navegación",
-    ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Memorias", "Contacto y Referencias"]
+    ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Contacto y Referencias"]
 )
-# Paleta y estilos generales
-st.markdown("""
-    <style>
-        body {
-            background-color: #fdfcfb;
-        }
-        h1, h2, h3 {
-            font-family: 'Georgia', serif;
-            color: #4B3F72;
-        }
-        p, li {
-            font-family: 'Helvetica Neue', sans-serif;
-            font-size: 16px;
-            color: #333333;
-        }
-        .section {
-            background-color: #ffffff;
-            padding: 30px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0px 2px 10px rgba(0,0,0,0.05);
-        }
-    </style>
-""", unsafe_allow_html=True)
 # ---------------------- INFO PERSONAL ----------------------
 info = {
     "Pronoun": "ella",
@@ -99,7 +75,7 @@ elif menu == "Contacto y Referencias":
     </a>
     """, unsafe_allow_html=True)
 
-st.header("Testimonios / Momentos")
+st.header("Momentos")
 col1, col2, col3 = st.columns(3)
 col1.image(endorsements["img1"], use_column_width=True)
 col2.image(endorsements["img2"], use_column_width=True)
