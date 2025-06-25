@@ -79,6 +79,7 @@ elif menu == "Galería de momentos":
     col2.image(endorsements["img5"])
     col3.image(endorsements["img3"])
     col3.image(endorsements["img6"])
+    st.video(https://www.instagram.com/reel/DJ70Aplx5Cz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
