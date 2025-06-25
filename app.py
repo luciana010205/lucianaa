@@ -1,13 +1,6 @@
 import streamlit as st
-st.set_page_config(page_title="Portafolio de Luciana", layout="wide")
 # ---------------------- CONFIGURACIÓN DE PÁGINA ----------------------
 st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":sparkles:", layout="wide")
-
-# Menú en el sidebar
-menu = st.sidebar.radio(
-    "Navegación",
-    ["Inicio", "Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Instagram", "Contacto"]
-)
 
 # ---------------------- INFO PERSONAL ----------------------
 info = {
