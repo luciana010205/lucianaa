@@ -78,6 +78,6 @@ elif menu == "Contacto y Referencias":
 
 st.header("Momentos")
 col1, col2, col3 = st.columns(3)
-col1.image(endorsements["img1"], use_column_width=True)
-col2.image(endorsements["img2"], use_column_width=True)
+col1.image(endorsements["img1"])
+col2.image(endorsements["img2"])
 col3.image(endorsements["img3"], use_column_width=True)
