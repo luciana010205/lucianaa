@@ -2,46 +2,7 @@
 import streamlit as st
 # ---------------------- CONFIGURACIÓN DE PÁGINA ----------------------
 st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":sparkles:", layout="wide")
-#Color de página
-t.markdown("""
-    <style>
-        body {
-            background-color: #FAF9F6;
-        }
-        .main {
-            background-color: #ffffff;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
-        }
-        h1, h2, h3 {
-            font-family: 'Georgia', serif;
-            color: #5C3D71;
-        }
-        p {
-            font-family: 'Helvetica Neue', sans-serif;
-            font-size: 16px;
-            color: #333;
-        }
-        .section {
-            background-color: #ffffff;
-            padding: 25px;
-            margin-bottom: 25px;
-            border-radius: 12px;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.05);
-        }
-        .intro-text {
-            font-size: 18px;
-            color: #6E5580;
-            font-weight: 500;
-        }
-    </style>
-""", unsafe_allow_html=True)
-# Menú en el sidebar
-menu = st.sidebar.radio(
-    "Navegación",
-    ["Sobre mí", "Currículum", "Fortalezas", "Intereses", "Galería de momentos", "Contacto y Referencias"]
-)
+
 # ---------------------- INFO PERSONAL ----------------------
 info = {
     "Pronoun": "ella",
