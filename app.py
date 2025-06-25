@@ -65,8 +65,10 @@ elif menu == "Intereses":
     st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. También encuentra una gran pasión por la producción de contenido audiovisual. Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
 
 elif menu == "Contacto y Referencias":
-    st.header("Contacto y Referencias")
+    st.header("Contacto")
     st.markdown('[✉️ Escríbeme un correo](mailto:luciana.huertas.a@gmail.com)', unsafe_allow_html=True)
+    st.header("📌 Referencias")
+    st.write("Referencias disponibles a solicitud.")
     st.header("Instagram")
     st.markdown("""
     <a href="https://www.instagram.com/luciana.hrts/" target="_blank">
