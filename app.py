@@ -40,6 +40,12 @@ embed_rss = {
 }
 
 # ---------------------- INTERFAZ ----------------------
+# Foto e Introducción
+st.image(info["Photo"], width=150)
+st.title(info["Full_Name"])
+st.subheader(info["Intro"])
+st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
+
 # Mostrar secciones según el menú
 if menu == "Inicio":
     st.image(info["Photo"], width=150)
@@ -70,16 +76,7 @@ elif menu == "Instagram":
     st.components.v1.html(embed_rss['rss'], height=600, scrolling=True)
 
 elif menu == "Contacto":
-    st.header("📞 Contacto")
-    st.write(f"**Correo:** {info['Email']}")
-    st.write(f"**Locación:** {info['City']}")
-    st.write("📌 Referencias disponibles a solicitud.")
     st.markdown('[✉️ Escríbeme un correo](mailto:luciana.huertas.a@gmail.com)', unsafe_allow_html=True)
-# Foto e Introducción
-st.image(info["Photo"], width=150)
-st.title(info["Full_Name"])
-st.subheader(info["Intro"])
-st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
 
 # Sección "Sobre mí"
 st.header("Sobre mí")
