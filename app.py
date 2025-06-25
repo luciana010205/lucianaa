@@ -5,7 +5,7 @@ st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":spark
 # Menú en el sidebar
 menu = st.sidebar.radio(
     "Navegación",
-    ["Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Contacto y Referencias"]
+    ["Sobre mí", "Currículum", "Fortalezas", "Intereses", "Galería de momentos", "Contacto y Referencias"]
 )
 # ---------------------- INFO PERSONAL ----------------------
 info = {
@@ -53,9 +53,9 @@ if menu == "Sobre mí":
     st.header("Sobre mí")
     st.write(info["About"])
 
-elif menu == "Portafolio":
-    st.header("📂 Portafolio")
-    st.write("Explora los intereses y experiencia de Luciana en este portafolio, donde podrás encontrar información completa de su desarrollo como persona y profesional.")
+elif menu == "Currículum":
+    st.header("📂 Currículum")
+    st.write("Explora los intereses y experiencia de Luciana a tarvés de su CV, donde podrás encontrar información completa de su desarrollo como persona y profesional.")
     st.image(info["CV"], width=200)
     
 elif menu == "Fortalezas":
@@ -65,6 +65,13 @@ elif menu == "Fortalezas":
 elif menu == "Intereses":
     st.header("🎯 Intereses")
     st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. También encuentra una gran pasión por la producción de contenido audiovisual. Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
+
+elif menu == "Galería de momentos"
+    st.header("Galería de momento")
+    col1, col2, col3 = st.columns(3)
+    col1.image(endorsements["img1"])
+    col2.image(endorsements["img2"])
+    col3.image(endorsements["img3"])
 
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
@@ -78,8 +85,3 @@ elif menu == "Contacto y Referencias":
     </a>
     """, unsafe_allow_html=True)
 
-st.header("Momentos")
-col1, col2, col3 = st.columns(3)
-col1.image(endorsements["img1"])
-col2.image(endorsements["img2"])
-col3.image(endorsements["img3"])
