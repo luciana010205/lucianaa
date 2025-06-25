@@ -6,7 +6,7 @@ st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":spark
 st.markdown("""
     <style>
         body {
-            background-color: #FAF9F6;
+            background-color: #F3EAF4;
         }
     </style>
 """, unsafe_allow_html=True)
