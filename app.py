@@ -1,6 +1,7 @@
 import streamlit as st
 # ---------------------- CONFIGURACIÓN DE PÁGINA ----------------------
 st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":sparkles:", layout="wide")
+# Menú en el sidebar
 menu = st.sidebar.radio(
     "Navegación",
     ["Inicio", "Sobre mí", "Portafolio", "Fortalezas", "Intereses", "Instagram", "Contacto"]
@@ -39,7 +40,41 @@ embed_rss = {
 }
 
 # ---------------------- INTERFAZ ----------------------
+# Mostrar secciones según el menú
+if menu == "Inicio":
+    st.image(info["Photo"], width=150)
+    st.title(info["Full_Name"])
+    st.subheader(info["Intro"])
+    st.markdown(f"📍 {info['City']} | ✉️ {info['Email']}")
 
+elif menu == "Sobre mí":
+    st.header("Sobre mí")
+    st.write(info["About"])
+
+elif menu == "Portafolio":
+    st.header("📂 Portafolio")
+    st.write("Explora los intereses y experiencia de Luciana en este portafolio...")
+    # Aquí puedes poner proyectos, links, etc.
+
+elif menu == "Fortalezas":
+    st.header("💪 Fortalezas")
+    st.write("Luciana posee gran facilidad de habla y carisma...")
+
+elif menu == "Intereses":
+    st.header("🎯 Intereses")
+    st.write("Luciana tiene una gran pasión por investigar temáticas sociales...")
+
+elif menu == "Instagram":
+    st.header("Instagram")
+    st.markdown("📸 [Sígueme en Instagram](https://www.instagram.com/luciana.hrts/)", unsafe_allow_html=True)
+    st.components.v1.html(embed_rss['rss'], height=600, scrolling=True)
+
+elif menu == "Contacto":
+    st.header("📞 Contacto")
+    st.write(f"**Correo:** {info['Email']}")
+    st.write(f"**Locación:** {info['City']}")
+    st.write("📌 Referencias disponibles a solicitud.")
+    st.markdown('[✉️ Escríbeme un correo](mailto:luciana.huertas.a@gmail.com)', unsafe_allow_html=True)
 # Foto e Introducción
 st.image(info["Photo"], width=150)
 st.title(info["Full_Name"])
