@@ -3,9 +3,13 @@ import streamlit as st
 # ---------------------- CONFIGURACIÓN DE PÁGINA ----------------------
 st.set_page_config(page_title="Portafolio de Luciana Huertas", page_icon=":sparkles:", layout="wide")
 #Color de página
-body {
-    background-color: #FAF9F6;
-}
+st.markdown("""
+    <style>
+        body {
+            background-color: #FAF9F6;
+        }
+    </style>
+""", unsafe_allow_html=True)
 # Menú en el sidebar
 menu = st.sidebar.radio(
     "Navegación",
