@@ -68,7 +68,7 @@ elif menu == "Fortalezas":
 
 elif menu == "Intereses":
     st.header("🎯 Intereses")
-    st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. También encuentra una gran pasión por la producción de contenido audiovisual. Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
+    st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. También encuentra una gran pasión por la producción de contenido audiovisual. Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario. Estoy enfocada en aprender más sobre creatividad estratégica, innovación social y seguir creando proyectos que inspiren y transformen.")
 
 elif menu == "Galería de momentos":
     st.header("Galería de momentos")
@@ -79,7 +79,7 @@ elif menu == "Galería de momentos":
     col2.image(endorsements["img5"])
     col3.image(endorsements["img3"])
     col3.image(endorsements["img6"])
-    st.video("https://www.instagram.com/reel/DJ70Aplx5Cz/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==")
+    st.video("https://www.instagram.com/reel/DJ70Aplx5Cz/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==")
 
 elif menu == "Contacto y Referencias":
     st.header("Contacto")
