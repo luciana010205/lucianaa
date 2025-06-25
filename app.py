@@ -53,16 +53,18 @@ if menu == "Sobre mí":
 
 elif menu == "Portafolio":
     st.header("📂 Portafolio")
-    st.write("Explora los intereses y experiencia de Luciana en este portafolio...")
+    st.write("Explora los intereses y experiencia de Luciana en este portafolio, donde podrás encontrar información completa de su desarrollo como persona y profesional.")
     # Aquí puedes poner proyectos, links, etc.
 
 elif menu == "Fortalezas":
     st.header("💪 Fortalezas")
-    st.write("Luciana posee gran facilidad de habla y carisma...")
+    st.write("Luciana posee gran facilidad de habla y carisma, así como un fuerte sentido de la colaboración y el trabajo en equipo efectivo. Siempre está dispuesta a ayudar y destacar...")
 
 elif menu == "Intereses":
     st.header("🎯 Intereses")
-    st.write("Luciana tiene una gran pasión por investigar temáticas sociales...")
+    st.write("Luciana tiene una gran pasión por investigar temáticas sociales que afecten actualmente al mundo. 
+También encuentra una gran pasión por la producción de contenido audiovisual. 
+Busca mezclar ambos ámbitos para desarrollarse dentro del enfoque publicitario.")
 
 elif menu == "Instagram":
     st.header("Instagram")
